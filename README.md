@@ -13,8 +13,8 @@ Créer un site web moderne et attractif pour promouvoir l'école et faciliter l'
 
 ## Membres de l'équipe
 
-- **Membre 1** : [Nom à compléter] - [Rôle à définir]
-- **Membre 2** : [Nom à compléter] - [Rôle à définir]
+- **Membre 1** : [Louis](https://github.com/Allbaaz)- Chef projet
+- **Membre 2** : [Baptiste](https://github.com/LeLicorne) - Developpeur
 
 ## Fonctionnalités
 
