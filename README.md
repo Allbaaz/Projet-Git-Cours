@@ -1,58 +1,60 @@
-# Site Web de l'École
+# Site Web ESGI - Projet Git Cours
 
 ## Description
 
-Ce projet consiste en la création d'un site web vitrine pour une école, développé avec les technologies web standards (HTML, CSS et JavaScript). Le site présente l'établissement, ses formations et permet aux visiteurs de prendre contact avec l'école.
+Ce projet consiste en la création d'un site web vitrine pour l'ESGI (École Supérieure de Génie Informatique), développé dans le cadre d'un cours sur Git. Le site présente l'établissement, ses formations et permet aux visiteurs de prendre contact avec l'école.
 
 ## But du projet
 
-Créer un site web moderne et attractif pour promouvoir l'école et faciliter l'accès aux informations pour les futurs étudiants et leurs familles. Le site doit être :
+Créer un site web moderne et attractif pour présenter l'ESGI et ses formations en informatique tout en apprenant à utiliser Git en équipe. Le site doit être :
 - **Responsive** : Accessible sur tous les appareils (desktop, tablette, mobile)
-- **Informatif** : Présenter clairement l'école et ses formations
+- **Informatif** : Présenter clairement l'école et ses formations informatiques
 - **Accessible** : Faciliter la prise de contact avec l'établissement
+- **Collaboratif** : Développé en équipe avec Git pour la gestion de versions
 
 ## Membres de l'équipe
 
-- **Membre 1** : [Louis](https://github.com/Allbaaz)- Chef projet
-- **Membre 2** : [Baptiste](https://github.com/LeLicorne) - Developpeur
+- **Louis** : [Allbaaz](https://github.com/Allbaaz) - Chef de projet
+- **Baptiste** : [LeLicorne](https://github.com/LeLicorne) - Développeur
 
 ## Fonctionnalités
 
 Le site web comprend les pages suivantes :
 
-### 🏠 Page d'accueil (Landing Page)
-- Présentation générale de l'école
-- Mise en avant des points forts
-- Navigation vers les autres sections
-- Appel à l'action pour les inscriptions
+### 🏠 Page d'accueil (index.html)
+- Présentation de l'ESGI (École Supérieure de Génie Informatique)
+- Logo et description de l'école
+- Navigation claire vers toutes les sections
+- Présentation du contexte du projet Git
 
-### 🎓 Page des formations
-- Liste détaillée des formations proposées
-- Durée, prérequis et débouchés de chaque formation
-- Système de filtrage/recherche (optionnel)
+### 🎓 Page des programmes (programmes.html)
+- Formations en informatique proposées par l'ESGI
+- Détails sur les cursus du Bachelor au Mastère
+- Spécialisations : cybersécurité, développement, data science, systèmes et réseaux
+- Interface utilisateur moderne avec design responsive
 
-### 🏛️ Page de présentation de l'école
+### 🏛️ Page de l'école (ecole.html)
+- Présentation détaillée de l'ESGI
 - Histoire et valeurs de l'établissement
-- Équipe pédagogique
-- Infrastructures et équipements
-- Témoignages d'anciens élèves
+- Infrastructure et environnement d'apprentissage
+- Informations sur la pédagogie et l'approche professionnalisante
 
-### 📞 Page de contact
-- Formulaire de contact fonctionnel
-- Coordonnées de l'école (adresse, téléphone, email)
-- Plan d'accès intégré
-- Horaires d'ouverture
-
-### Fonctionnalités techniques
-- **Navigation fluide** entre les pages
-- **Design responsive** adaptatif
-- **Formulaire de contact** avec validation
+### 📞 Page de contact (contact.html)
+- Formulaire de contact interactif
+- Coordonnées de l'école
+- Interface moderne et accessible
+- JavaScript pour la validation des formulaires
 
 ## Technologies utilisées
 
 - **HTML5** : Structure et contenu des pages
 - **CSS3** : Mise en forme et design responsive
-- **JavaScript** : Interactivité et fonctionnalités dynamiques
+  - `css.css` : Styles principaux du site
+  - `programmes.css` : Styles spécifiques pour la page des formations
+- **JavaScript** : Interactivité et validation des formulaires
+  - `contact.js` : Gestion du formulaire de contact
+- **Google Fonts** : Police Inter pour une typographie moderne
+- **Git** : Gestion de versions et collaboration en équipe
 
 ## Prérequis
 
@@ -83,22 +85,29 @@ Le site s'ouvrira directement dans votre navigateur web. Aucune installation sup
 
 ```
 Projet-Git-Cours/
-├── index.html              # Page d'accueil
+├── index.html              # Page d'accueil - Présentation ESGI
 ├── pages/
-│   ├── formations.html     # Page des formations
-│   ├── ecole.html         # Présentation de l'école
-│   └── contact.html       # Page de contact
+│   ├── programmes.html     # Page des formations informatiques
+│   ├── ecole.html         # Présentation détaillée de l'ESGI
+│   └── contact.html       # Page de contact avec formulaire
 ├── css/
-│   ├── style.css          # Styles principaux
-│   └── responsive.css     # Styles responsives
+│   ├── css.css            # Styles principaux du site
+│   └── programmes.css     # Styles spécifiques aux formations
 ├── js/
-│   ├── main.js           # JavaScript principal
-│   └── contact.js        # Scripts pour le formulaire
-├── images/               # Images du site
-└── README.md            # Ce fichier
+│   └── contact.js         # Scripts pour le formulaire de contact
+├── images/               # Ressources visuelles
+│   ├── logo.webp         # Logo de l'ESGI
+│   └── Lille-Vauban-ESGI-1.png  # Image du campus
+└── README.md            # Documentation du projet
 ```
 
 
 ## Contact
 
-Pour toute question concernant ce projet, n'hésitez pas à nous contacter via GitHub ou par email.
+Pour toute question concernant ce projet, n'hésitez pas à contacter l'équipe :
+- **Louis (Chef de projet)** : [GitHub](https://github.com/Allbaaz)
+- **Baptiste (Développeur)** : [GitHub](https://github.com/LeLicorne)
+
+---
+
+*Projet réalisé dans le cadre du cours Git - ESGI*
