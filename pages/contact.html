@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>Contact - ESGI</title>
+</head>
+<body>
+    
+
+    <main class="contact-main">
+        <section class="contact-hero">
+            <div class="container">
+                <h1 class="contact-title">Contactez-nous</h1>
+                <p class="contact-subtitle">Une question ? Un projet ? N'hésitez pas à nous contacter !</p>
+            </div>
+        </section>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="nav-container">
+                <ul class="nav-menu">
+                    <li><a href="../index.html">🏠 Accueil</a></li>
+                    <li><a href="ecole.html">🏛️ École</a></li>
+                    <li><a href="formations.html">🎓 Formations</a></li>
+                    <li><a href="contact.html">📞 Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Formulaire de contact -->
+                    <div class="contact-form-container">
+                        <h2>Envoyez-nous un message</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nom complet *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Sujet *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Choisissez un sujet</option>
+                                    <option value="information">Demande d'information</option>
+                                    <option value="admission">Admission</option>
+                                    <option value="partenariat">Partenariat</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Votre message..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">Envoyer le message</button>
+                        </form>
+                    </div>
+
+                    <!-- Informations de contact -->
+                    <div class="contact-info-container">
+                        <h2>Informations de contact</h2>
+                        
+                        <div class="contact-info-grid">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <h3>Adresse</h3>
+                                <p>242 Rue du Faubourg Saint-Antoine<br>75012 Paris, France</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <h3>Téléphone</h3>
+                                <p>+33 1 44 08 00 50</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">✉️</div>
+                                <h3>Email</h3>
+                                <p>contact@esgi.fr<br>admissions@esgi.fr</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <h3>Horaires</h3>
+                                <p>Lun - Ven : 9h00 - 18h00<br>Sam : 9h00 - 12h00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h3>Suivez-nous</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-link">🔗 LinkedIn</a>
+                                <a href="#" class="social-link">📘 Facebook</a>
+                                <a href="#" class="social-link">🐦 Twitter</a>
+                                <a href="#" class="social-link">📷 Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section plan d'accès -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Plan d'accès</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <p>🗺️ Carte interactive</p>
+                        <p>242 Rue du Faubourg Saint-Antoine, 75012 Paris</p>
+                        <p><strong>Métro :</strong> Faidherbe-Chaligny (Ligne 8)</p>
+                        <p><strong>Bus :</strong> Lignes 46, 86</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="../index.html">Accueil</a>
+                <a href="ecole.html">École</a>
+                <a href="formations.html">Formations</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2024 ESGI - École Supérieure de Génie Informatique. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
